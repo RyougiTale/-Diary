@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Grand_Diary.exe" version="1.0.0.1" publicKeyToken="6f38abac6740ee98" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Grand_Diary" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Grand_Diary.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Google.Protobuf.dll" size="294400">
+      <assemblyIdentity name="Google.Protobuf" version="3.5.1.0" publicKeyToken="A7D26565BAC4D604" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kmmLSyM9YCkmP+X33YMDTg/6sJlFHUuInLwRv1o/LXM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Grand_Diary.exe" size="183760">
+      <assemblyIdentity name="Grand_Diary" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8Q2CgMVe+B0nUkW7hL5XeCOnAXB/esZTZ8ngt4wgyS4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="688640">
+      <assemblyIdentity name="MySql.Data" version="8.0.11.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KeY+Kh5+A5CIBvHLVvNsTVoTRzg+tC+GiEhPwdF1Rrk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Grand_Diary.exe.config" size="163">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>399ezWKRyw10uJdGtzO8ix9udPAKJT3uFdFIkaLPW6A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="timg2.jpg" size="94352">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4bOzyTC31WklQW0AiOsd3O/hKD9ubmODg5s2gL7LDiw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Lenovo-PC\javydage" issuerKeyHash="a5d99f4fc7f1e6cededc8e8cb7407cafed939d22" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>SzqsCtmKKt2OoKjc0wduIW7hc3gyTk5wYDu4FRGJ2VQ=</DigestValue></Reference></SignedInfo><SignatureValue>y/e6JSP+oshZEX4xqMtBhGT54ivXNh9QsGPNxbH+DdgmMZNjslQpEGiuhxHjjGAWLSyouNHt3rhgdE9y1mYMwwCCKWWSD/JR8V7tubZdDvb6eF5nZPg//r4Nd/LSk7LXalO9qTO66SLq26eGzET0stEj25GhRXA/uf3FHEKgXRE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5uiaGgmUoZeibg41cpUcZLgpVKY6aiC1iB4TtJZGOmKmsr2cWZ3Jasbh05MIVN//yyFRxKkFBD5WptSsK2reGrvxYoqr74nfH87qgiLRdl74PnZLH7Q5nywoVH8Cznd2f2JbSPRkIekmanPe4QvWpwL7SPnzQKCrX/u6RlANTGM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="54d9891115b83b60704e4e327873e16e216e07d3dca8a08edd2a8ad90aac3a4b" Description="" Url=""><as:assemblyIdentity name="Grand_Diary.exe" version="1.0.0.1" publicKeyToken="6f38abac6740ee98" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Lenovo-PC\javydage</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bR/ubh+0RHPrFu5RTREjc3/THqhrAETIbhANPbadIIg=</DigestValue></Reference></SignedInfo><SignatureValue>tdULvs/v5dxcoHI4x8l3Aw7O278N3f9F8hSyw1u87o/Dc3yYshSepYjzlOqze9fdcEZEVch/4fmZhnlm1zRfxQLliMGncltOl0fAvHC/vcO2sxNUY8GOdprKMoBYSiTMMsr14qAtf/+bdmsnqw2axW/7NyOH3uR4Zbi4jW/06oM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5uiaGgmUoZeibg41cpUcZLgpVKY6aiC1iB4TtJZGOmKmsr2cWZ3Jasbh05MIVN//yyFRxKkFBD5WptSsK2reGrvxYoqr74nfH87qgiLRdl74PnZLH7Q5nywoVH8Cznd2f2JbSPRkIekmanPe4QvWpwL7SPnzQKCrX/u6RlANTGM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQHEF/iwch7o9KyT8J2iOLEzANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQATABlAG4AbwB2AG8ALQBQAEMAXABqAGEAdgB5AGQAYQBnAGUwHhcNMTgwNjA4MTMyMzAzWhcNMTkwNjA4MTkyMzAzWjAvMS0wKwYDVQQDHiQATABlAG4AbwB2AG8ALQBQAEMAXABqAGEAdgB5AGQAYQBnAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAObomhoJlKGXom4ONXKVHGS4KVSmOmogtYgeE7SWRjpiprK9nFmdyWrG4dOTCFTf/8shUcSpBQQ+VqbUrCtq3hq78WKKq++J3x/O6oIi0XZe+D52Sx+0OZ8sKFR/As53dn9iW0j0ZCHpJmpz3uEL1qcC+0j580Cgq1/7ukZQDUxjAgMBAAEwDQYJKoZIhvcNAQELBQADgYEA4ugqkrAwkVA1hBxf+CXp32V4Z0eRYxFiP3xSuCasMqiaZFSbGj5ieXfDOgg3QpubJpKC28W2ckmyIMwwpF8Czddn7rsNm/bMeArGEohhSWpEs+E0p0O9i8MecmKLGDg/dhoOwuMWFsg9uFWx6cbWGEx1Z19TxroClBCPBFVn2Q8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
